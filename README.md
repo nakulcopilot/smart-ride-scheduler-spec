@@ -43,7 +43,7 @@ This template is designed for:
 |-------|---------------|
 | **Product Owners** | Learn the key sections to include in an agent spec |
 | **Technical PMs** | Translate requirements into engineering tasks |
-| **Engineering Leads** | UnderstandAgent behavior before coding |
+| **Engineering Leads** | Understand agent behavior before coding |
 | **QA Engineers** | Build test plans from acceptance criteria |
 
 ---
@@ -65,7 +65,7 @@ gh repo fork nakulcopilot/smart-ride-scheduler-spec
 
 | Section | Purpose | Why It Matters |
 |---------|---------|--------------|
-| [Overview](#overview) | Product vision and agent persona | Defines what the agent IS |
+| [Overview](#product-vision) | Product vision and agent persona | Defines what the agent IS |
 | [Capability Inventory](#capability-inventory) | Tools, APIs, and permissions | Knows what the agent CAN do |
 | [Decision Logic Framework](#decision-logic-framework) | Step-by-step workflow demo | Shows HOW the agent thinks |
 | [State & Memory Management](#state--memory-management) | Short-term vs. long-term data | Manages agent "memory" |
@@ -83,15 +83,19 @@ gh repo fork nakulcopilot/smart-ride-scheduler-spec
 Agentic AI applications are fundamentally different from traditional software:
 
 ### Traditional Software
+
 ```
 User clicks button → System executes code → Return result
 ```
+
 The system does exactly what it's programmed to do.
 
 ### Agentic AI
+
 ```
 User makes request → Agent decides how to act → Agent uses tools → Agent adapts based on response
 ```
+
 The agent makes decisions autonomously - and can make wrong ones.
 
 ### This Creates New Challenges
@@ -190,7 +194,7 @@ The spec evolves. Update as:
 ```
 Product: "Build an AI agent that books rides"
 Engineer: "Okay" (builds whatever they think makes sense)
-Result: 
+Result:
 - Agent books ANY ride without validation
 - No fallback if Uber fails
 - No limit on spending
@@ -211,7 +215,7 @@ Result:
 
 ---
 
-########## The Smart Ride Scheduler Spec###########
+## The Smart Ride Scheduler Spec
 
 Below is a complete working example. Read it to understand how each section comes together.
 
@@ -354,7 +358,7 @@ User: "Schedule a ride to Hyderabad Airport at 6:30 AM"
 | Metric | Target |
 |--------|--------|
 | Success rate | 95% |
-| ETA error | ≤ 5 minutes |
+| ETA error | <= 5 minutes |
 | Fallback frequency | ≤ 3% |
 
 ---
