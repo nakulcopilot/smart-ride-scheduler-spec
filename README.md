@@ -14,8 +14,6 @@
 
 ### Why I Created This Spec
 
-Before becoming a Product Owner, I spent years building AI systems, and I noticed a persistent problem: **we were building AI agents without clear specifications**.
-
 Traditional software has requirements documents, functional specs, and acceptance criteria. But when it came to AI agents, teams would just say "let the agent figure it out" - and then wonder why the agent made unexpected decisions, leaked sensitive data, or failed in production.
 
 This template is my attempt to solve that problem. I wanted to create a **practical, learnable framework** that Product Owners can use to:
