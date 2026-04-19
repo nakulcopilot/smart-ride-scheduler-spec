@@ -211,7 +211,7 @@ Result:
 
 ---
 
-########################################################## The Smart Ride Scheduler Spec####################################################
+########## The Smart Ride Scheduler Spec###########
 
 Below is a complete working example. Read it to understand how each section comes together.
 
